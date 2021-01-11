@@ -45,7 +45,7 @@ df_1 <- rbind(df_train, df_test)
 colnames(df_1)[1:2]<-c("Subject", "Activity")
 
 
-#3. Extract the measurements for mean and standard deviation
+#3. Extract the measurements for mean and standard deviation <- <- <- 
 mean_feat <-grep("mean", colnames(df_1))
 std_feat <- grep("std", colnames(df_1))
 
