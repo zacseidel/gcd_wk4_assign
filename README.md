@@ -18,6 +18,6 @@ This dataset was created with the following steps:
  - 5. Appropriately label the datset with descriptive variable names
  - 6. From the dataset in step 5, create a second, independent tidy data set with the average for each activity and each subject.  - Create this dataset with write.table(row.names = FALSE)
  
- The variables are name with lables from the "features" file.  The activities are given as a factor variable with descriptive labels given in the dataset.
+ The variables are name with lables from the "features" file.  The activities are given as a factor variable with descriptive labels given in the dataset.  The individual values in this file are the means of the values, grouped by subject and activity, from the original dataset.
  
 
